@@ -1,5 +1,5 @@
-const getUsersWithFriend = (allUsers, friendName) =>
-  allUsers.filter(allUser => allUser.friends.includes(friendName));
+const getUsersWithFriend = (users, friendName) =>
+  users.filter(allUser => allUser.friends.includes(friendName));
 
 const allUsers = [
   {
